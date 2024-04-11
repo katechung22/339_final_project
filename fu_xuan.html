@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fu Xuan</title>
+</head>
+<body>
+    <a class = "skip" href = "#main">Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul class = "menu">
+                <li><a href = "index.html"><button>Home</button></a></li>
+                <li><a href = "games.html"><button>Games</button></a></li>
+                <li><a href = "characters.html"><button>Characters</button></a></li>
+            </ul>
+        </nav>
+        <h1>Fu Xuan, the Master Diviner</h1>
+    </header>
+    <main id = "main" class = "main">
+        <div class = "fu-xuan-left"></div>
+
+        <div class = "grid-template">
+            <div class = "content-grid">
+                <img src = "images/fu_xuan_main.jpeg">
+            </div>
+
+            <div class = "content-grid">
+                <h2>Character Description</h2>
+                <p>"The confident yet blunt Master Diviner of the Xianzhou Luofu's Divination Commission and one of the Six Charioteers. She calculates the Xianzhou Luofu's route and foretells the outcome of future events, as she feels that what she does is the wisest course of action." Source: <i>Wikipedia</i></p>
+            </div>
+
+            <div class = "gallery">
+                <figure>
+                    <div class = "slide">
+                        <img src = "images/fu_xuan_1.jpeg" alt = "Fu Xuan ulting">
+                        <figcaption>1 / 3</figcaption>
+                    </div>
+                </figure>
+
+                <figure>
+                    <div class = "slide">
+                        <img src = "images/fu_xuan_2.jpeg" alt = "Fu Xuan looking at her orb">
+                        <figcaption>2 / 3</figcaption>
+                    </div>
+                </figure>
+
+                <figure>
+                    <div class = "slide">
+                        <img src = "images/fu_xuan_3.jpeg" alt = "Fu Xuan gameplay">
+                        <figcaption>3 / 3</figcaption>
+                    </div>
+                </figure>
+
+                <button class="prev" onclick="plusSlides(-1)"><</button>
+                <button class="next" onclick="plusSlides(1)">></button>
+            </div>
+
+            <div class = "content-grid facts">
+                <h3>Abilities</h3>
+                <ul>
+                    <li>Novaburst: Deals Quantum DMG equal to 25% of Fu Xuan's Max HP to a single enemy.</li>
+                    <li>Known by Stars, Shown by Hearts: Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 3% of Fu Xuan's Max HP, and increases CRIT Rate by 6%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.</li>
+                    <li>Woes of Many Morphed to One: Deals Quantum DMG equal to 60% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan's Talent.
+                        (The restoration triggered by Fu Xuan’s Talent can exist up to a maximum of 2 times, but there is no upper limit on the number of times the ultimate obtains 1 trigger count.)</li>
+                    <li>Bleak Breeds Bliss: While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 10% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 80% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "fu-xuan-right"></div>
+    </main>
+</body>
+<footer class = "bottom-grid">
+    <p>Kate Chung, 2024</p>
+    <a href = "mailto:katchu@umich.edu"> <img class = "contact-icon" src = "images/mail_icon.jpeg" alt = "Email icon"> </a>
+</footer>
+<script src = "js/page.js"> </script>
+</html>
