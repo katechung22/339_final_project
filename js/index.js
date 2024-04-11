@@ -2,9 +2,8 @@ let images = ["../images/honkai_main_smaller.jpeg", "../images/league_main_small
 let alt = ["Honkai: Star Rail splash art", "League of Legends splash art", "Overwatch cover splash art", "Pokemon cover splash art", "TFT cover splash art", "Valorant cover splash art"]
 
 window.addEventListener("load", function() {
-	// let randomIndex = Math.floor(Math.random() * images.length);
-    // document.getElementById("randomImage").src = "../images/honkai_main_smaller.jpeg"
-    // document.getElementById("randomImage").alt = alt[randomIndex]
-    document.getElementById("randImage").style.backgroundImage = "url('images/honkai_main_smaller.jpeg')"
+	let randomIndex = Math.floor(Math.random() * images.length);
+    document.getElementById("randomImage").src = images[randomIndex]
+    document.getElementById("randomImage").alt = alt[randomIndex]
 });
 
