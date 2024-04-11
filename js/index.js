@@ -5,6 +5,6 @@ window.addEventListener("load", function() {
 	// let randomIndex = Math.floor(Math.random() * images.length);
     // document.getElementById("randomImage").src = "../images/honkai_main_smaller.jpeg"
     // document.getElementById("randomImage").alt = alt[randomIndex]
-    document.getElementById("randImage").style.backgroundImage = "url('../images/honkai_main_smaller.jpeg')"
+    document.getElementById("randImage").style.backgroundImage = "url('images/honkai_main_smaller.jpeg')"
 });
 
