@@ -193,18 +193,6 @@ div.game-div h2:hover {
     box-shadow: inset 380px 0 0 0 #4095d2;
 }
 
-div.home-game h2 {
-    box-shadow: inset 0 0 0 0 #4095d2;
-    padding: 0 .25rem;
-    margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-div.home-game h2:hover {
-    color: #fff;
-    box-shadow: inset 250px 0 0 0 #4095d2;
-}
-
 div.character-div h2 {
     box-shadow: inset 0 0 0 0 #b65375;
     padding: 0 .25rem;
@@ -215,18 +203,6 @@ div.character-div h2 {
 div.character-div h2:hover {
     color: #fff;
     box-shadow: inset 300px 0 0 0 #b65375;
-}
-
-div.home-characters h2 {
-    box-shadow: inset 0 0 0 0 #b65375;
-    padding: 0 .25rem;
-    margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-div.home-characters h2:hover {
-    color: #fff;
-    box-shadow: inset 250px 0 0 0 #b65375;
 }
 
 .contact-icon {
@@ -248,17 +224,6 @@ div.home-characters h2:hover {
 
 .slide {
     display: none;
-}
-
-.fade {
-    animation: fade 1.5s ease-out infinite;
-}
-
-@keyframes fade {
-    0% { opacity: 0; }
-    25% { opacity: 1; }
-    75% { opacity: 1; }
-    100% { opacity: 0; }
 }
 
 .prev, .next {
