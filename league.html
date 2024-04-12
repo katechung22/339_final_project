@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul class = "menu">
-                <li><button> <a href = "index.html">Home</a></button></li>
-                <li><button> <a href = "games.html">Games</a></button></li>
-                <li><button> <a href = "characters.html">Characters</a></button></li>
+                <li><a class = "button" href = "index.html">Home</a></li>
+                <li><a class = "button" href = "games.html">Games</a></li>
+                <li><a class = "button" href = "characters.html">Characters</a></li>
             </ul>
         </nav>
         <h1>League of Legends</h1>
@@ -47,43 +47,28 @@
             </div>
 
             <div class = "gallery">
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/league_1.jpeg" alt = "League of Legends gameplay">
-                    <figcaption>1 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/league_1.jpeg" alt = "League of Legends gameplay">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/league_2.jpeg" alt = "League of Legends loading screen">
-                    <figcaption>2 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/league_2.jpeg" alt = "League of Legends loading screen">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/league_3.jpeg" alt = "League of Legends ARAM map">
-                    <figcaption>3 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/league_3.jpeg" alt = "League of Legends ARAM map">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/league_4.jpeg" alt = "League of Legends shop">
-                    <figcaption>4 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/league_4.jpeg" alt = "League of Legends shop">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/league_5.jpeg" alt = "League of Legends battle">
-                    <figcaption>5 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/league_5.jpeg" alt = "League of Legends battle">
+                </div>
 
-                <button class="prev" onclick="plusSlides(-1)"><</button>
-                <button class="next" onclick="plusSlides(1)">></button>
+                <button class="prev" onclick="plusSlides(-1)">Previous</button>
+                <button class="next" onclick="plusSlides(1)">Next</button>
             </div>
 
             <div class = "content-grid">
@@ -99,6 +84,7 @@
         <p>Kate Chung, 2024</p>
         <a href = "mailto:katchu@umich.edu"> <img class = "contact-icon" src = "images/mail_icon.jpeg" alt = "Email icon"> </a>
     </footer>
+
+    <script src = "js/page.js"> </script>
 </body>
-<script src = "js/page.js"> </script>
 </html>

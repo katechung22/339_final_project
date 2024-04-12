@@ -89,7 +89,7 @@ ul.menu li {
     list-style-type: none;
 }
 
-.menu button {
+.menu .button {
     background-color: #caf1f5;
     border: 2px solid #164614;
     border-radius: 30px;
@@ -108,29 +108,26 @@ ul.menu li {
     touch-action: manipulation;
 }
 
-.menu button:hover {
+.menu .button:hover {
     border: 2px solid #164614;
     background-color: #f5cae0;
 }
 
-.menu button:active {
+.menu .button:active {
     transform: translate(3px, 3px);
+    box-shadow: #164614 2px 2px 0 0;
 }
 
-button:hover {
+.button:hover {
     border: 2px solid #164614;
     background-color: #f5cae0;
 }
 
-button:active {
-    transform: translate(.05px, .05px);
-}
-
-.menu button a {
+.menu .button a {
     display: block;
 }
 
-.active {
+.menu a.active {
     background-color: #f5cae0;
     font-weight: bolder;
 }
@@ -268,9 +265,9 @@ div.home-characters h2:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+    padding: 2px;
+    background-color: #0e3501;
+    color: #ccedd0;
     border: none;
     cursor: pointer;
 }
@@ -289,11 +286,11 @@ div.home-characters h2:hover {
 }
 
 .computer-border {
-    border-image: url("../images/computer_border.jpeg") 30 round;
+    border-image: url("/images/computer_border.jpeg") 30 round;
 }
 
 @media screen and (min-width: 750px) {
-    .menu button {
+    .menu .button {
         font-size: 30px;
         padding: 10px 30px;
     }
@@ -363,7 +360,7 @@ div.home-characters h2:hover {
         grid-template-columns: .5fr 3fr .5fr;
     }
 
-    .menu button {
+    .menu .button {
         font-size: 35px;
         padding: 10px 30px;
     }
@@ -432,122 +429,122 @@ div.home-characters h2:hover {
     }
 
     .bard-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #fbe87f;
     }
 
     .bard-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #45af87;
     }
 
     .fu-xuan-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #c56fce;
     }
 
     .fu-xuan-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #ffe6f3;
     }
 
     .honkai-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #164bb2;
     }
 
     .honkai-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #164bb2;
     }
 
     .kirby-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #fe74a7;
     }
 
     .kirby-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #fe74a7;
     }
 
     .league-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #38628e;
     }
 
     .league-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #ebc853;
     }
 
     .moira-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #411c55;
     }
 
     .moira-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #e3d161
     }
 
     .overwatch-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: white;
     }
 
     .overwatch-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #f16517;
     }
 
     .pokemon-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #f83f31;
     }
 
     .pokemon-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: white;
     }
 
     .sage-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #007c8f;
     }
 
     .sage-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #62f1f6;
     }
 
     .tft-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #edab3f;
     }
 
     .tft-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #edab3f;
     }
 
     .togekiss-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: #3297d5;
     }
 
     .togekiss-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #b84b3c;
     }
 
     .valorant-left {
-        grid-template-columns: 1/1;
+        grid-column: 1/1;
         background-color: black;
     }
 
     .valorant-right {
-        grid-template-columns: 3/-1;
+        grid-column: 3/-1;
         background-color: #fe4654;
     }
 }

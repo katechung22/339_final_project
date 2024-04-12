@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul class = "menu">
-                <li><button> <a href = "index.html">Home</a></button></li>
-                <li><button> <a href = "games.html">Games</a></button></li>
-                <li><button> <a href = "characters.html">Characters</a></button></li>
+                <li><a class = "button" href = "index.html">Home</a></li>
+                <li><a class = "button" href = "games.html">Games</a></li>
+                <li><a class = "button" href = "characters.html">Characters</a></li>
             </ul>
         </nav>
         <h1>Pokemon</h1>
@@ -42,43 +42,28 @@
             </div>
 
             <div class = "gallery">
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/pokemon_1.jpeg" alt = "Wild pokemon encounter">
-                    <figcaption>1 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/pokemon_1.jpeg" alt = "Wild pokemon encounter">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/pokemon_2.jpeg" alt = "Wandering in the tall grass in Pokemon">
-                    <figcaption>2 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/pokemon_2.jpeg" alt = "Wandering in the tall grass in Pokemon">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/pokemon_3.jpeg" alt = "Pokemon gym entrance">
-                    <figcaption>3 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/pokemon_3.jpeg" alt = "Pokemon gym entrance">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/pokemon_4.jpeg" alt = "Legendary pokemon encounter">
-                    <figcaption>4 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/pokemon_4.jpeg" alt = "Legendary pokemon encounter">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/pokemon_5.jpeg" alt = "Pokemon team view">
-                    <figcaption>5 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/pokemon_5.jpeg" alt = "Pokemon team view">
+                </div>
 
-                <button class="prev" onclick="plusSlides(-1)"><</button>
-                <button class="next" onclick="plusSlides(1)">></button>
+                <button class="prev" onclick="plusSlides(-1)">Previous</button>
+                <button class="next" onclick="plusSlides(1)">Next</button>
             </div>
 
             <div class = "content-grid">
@@ -99,6 +84,7 @@
         <p>Kate Chung, 2024</p>
         <a href = "mailto:katchu@umich.edu"> <img class = "contact-icon" src = "images/mail_icon.jpeg" alt = "Email icon"> </a>
     </footer>
+
+    <script src = "js/page.js"> </script>
 </body>
-<script src = "js/page.js"> </script>
 </html>

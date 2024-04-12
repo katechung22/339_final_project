@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul class = "menu">
-                <li><button> <a href = "index.html">Home</a></button></li>
-                <li><button> <a href = "games.html">Games</a></button></li>
-                <li><button> <a href = "characters.html">Characters</a></button></li>
+                <li><a class = "button" href = "index.html">Home</a></li>
+                <li><a class = "button" href = "games.html">Games</a></li>
+                <li><a class = "button" href = "characters.html">Characters</a></li>
             </ul>
         </nav>
         <h1>Teamfight Tactics</h1>
@@ -42,43 +42,28 @@
             </div>
 
             <div class = "gallery">
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/tft_1.jpg" alt = "Teamfight Tactics beginning board">
-                    <figcaption>1 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/tft_1.jpg" alt = "Teamfight Tactics beginning board">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/tft_2.png" alt = "Teamfight Tactics battle">
-                    <figcaption>2 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/tft_2.png" alt = "Teamfight Tactics battle">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/tft_3.jpeg" alt = "Teamfight Tactics carousel">
-                    <figcaption>3 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/tft_3.jpeg" alt = "Teamfight Tactics carousel">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/tft_4.png" alt = "Teamfight Tactics loading screen">
-                    <figcaption>4 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/tft_4.png" alt = "Teamfight Tactics loading screen">
+                </div>
 
-                <figure>
-                    <div class = "slide">
-                        <img src = "images/tft_5.jpeg" alt = "Teamfight Tactics character shop">
-                    <figcaption>5 / 5</figcaption>
-                    </div>
-                </figure>
+                <div class = "slide">
+                    <img src = "images/tft_5.jpeg" alt = "Teamfight Tactics character shop">
+                </div>
 
-                <button class="prev" onclick="plusSlides(-1)"><</button>
-                <button class="next" onclick="plusSlides(1)">></button>
+                <button class="prev" onclick="plusSlides(-1)">Previous</button>
+                <button class="next" onclick="plusSlides(1)">Next</button>
             </div>
 
             <div class = "content-grid">
@@ -98,6 +83,7 @@
         <p>Kate Chung, 2024</p>
         <a href = "mailto:katchu@umich.edu"> <img class = "contact-icon" src = "images/mail_icon.jpeg" alt = "Email icon"> </a>
     </footer>
+
+    <script src = "js/page.js"> </script>
 </body>
-<script src = "js/page.js"> </script>
 </html>
