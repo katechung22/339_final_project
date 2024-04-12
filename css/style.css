@@ -132,6 +132,7 @@ button:active {
 
 .active {
     background-color: #f5cae0;
+    font-weight: bolder;
 }
 
 img {
