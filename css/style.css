@@ -265,7 +265,7 @@ div.home-characters h2:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 2px;
+    padding: 5px;
     background-color: #0e3501;
     color: #ccedd0;
     border: none;
@@ -286,7 +286,7 @@ div.home-characters h2:hover {
 }
 
 .computer-border {
-    border-image: url("/images/computer_border.jpeg") 30 round;
+    border-image: url("../images/computer_border.jpeg") 30 round;
 }
 
 @media screen and (min-width: 750px) {
